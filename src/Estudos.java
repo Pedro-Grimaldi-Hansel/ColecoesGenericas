@@ -5,11 +5,11 @@ import java.util.Set;
 
 public class Estudos {
     public static void main(String[] args){
-        HashMap cidadesHabitantes = new HashMap();
+        HashMap<String,Integer> cidadesHabitantes = new HashMap();
 
-        cidadesHabitantes.put("Goinia",new Integer(4356554));
-        cidadesHabitantes.put("São Paulo",new Integer(4356571));
-        cidadesHabitantes.put("Brasília",new Integer(4356554));
+        cidadesHabitantes.put("Goinia",4356554);
+        cidadesHabitantes.put("São Paulo",4356571);
+        cidadesHabitantes.put("Brasília",4356554);
 
         Set set= cidadesHabitantes.entrySet();
 

@@ -10,5 +10,9 @@ public class MinhaClasseTesteNova {
 
         MinhaClasseNova<String> palavra = new MinhaClasseNova<>("Alou");
         palavra.printar();
+
+        MinhaClasseNova<Boolean> boleano = new MinhaClasseNova<>(Boolean.TRUE);
+        boleano.printar();
+
     }
 }
